@@ -1,0 +1,38 @@
+.featured-books-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  border-top: 1px solid #ddd;
+}
+
+.featured-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.featured-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #4b0082;
+}
+
+.featured-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  padding: 0 10px;
+}
+
+
+/* Optional: Give space around cards directly */
+.book-card {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
