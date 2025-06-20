@@ -26,7 +26,7 @@ PageTurner is a full-stack web application that allows users to discover, review
 
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+
 cd client 
 npm install
 npm start
